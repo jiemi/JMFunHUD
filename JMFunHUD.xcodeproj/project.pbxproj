@@ -13,6 +13,11 @@
 		3FCB3D511DF40B0C0070B3C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCB3D4F1DF40B0C0070B3C2 /* Main.storyboard */; };
 		3FCB3D531DF40B0C0070B3C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FCB3D521DF40B0C0070B3C2 /* Assets.xcassets */; };
 		3FCB3D561DF40B0C0070B3C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCB3D541DF40B0C0070B3C2 /* LaunchScreen.storyboard */; };
+		3FCB3D601DF40B7A0070B3C2 /* JMDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCB3D5F1DF40B7A0070B3C2 /* JMDotView.m */; };
+		3FCB3D631DF40B8B0070B3C2 /* JMCenterRotateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCB3D621DF40B8B0070B3C2 /* JMCenterRotateView.m */; };
+		3FCB3D661DF40B990070B3C2 /* JMSimpleLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCB3D651DF40B990070B3C2 /* JMSimpleLoader.m */; };
+		3FCB3D691DF40BAA0070B3C2 /* JMFunHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCB3D681DF40BAA0070B3C2 /* JMFunHUD.m */; };
+		3FCB3D6B1DF40CC00070B3C2 /* IMG_1331.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3FCB3D6A1DF40CC00070B3C2 /* IMG_1331.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,15 @@
 		3FCB3D521DF40B0C0070B3C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FCB3D551DF40B0C0070B3C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FCB3D571DF40B0C0070B3C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FCB3D5E1DF40B7A0070B3C2 /* JMDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMDotView.h; sourceTree = "<group>"; };
+		3FCB3D5F1DF40B7A0070B3C2 /* JMDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMDotView.m; sourceTree = "<group>"; };
+		3FCB3D611DF40B8B0070B3C2 /* JMCenterRotateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMCenterRotateView.h; sourceTree = "<group>"; };
+		3FCB3D621DF40B8B0070B3C2 /* JMCenterRotateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMCenterRotateView.m; sourceTree = "<group>"; };
+		3FCB3D641DF40B990070B3C2 /* JMSimpleLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMSimpleLoader.h; sourceTree = "<group>"; };
+		3FCB3D651DF40B990070B3C2 /* JMSimpleLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMSimpleLoader.m; sourceTree = "<group>"; };
+		3FCB3D671DF40BAA0070B3C2 /* JMFunHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMFunHUD.h; sourceTree = "<group>"; };
+		3FCB3D681DF40BAA0070B3C2 /* JMFunHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMFunHUD.m; sourceTree = "<group>"; };
+		3FCB3D6A1DF40CC00070B3C2 /* IMG_1331.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_1331.PNG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +72,12 @@
 		3FCB3D451DF40B0C0070B3C2 /* JMFunHUD */ = {
 			isa = PBXGroup;
 			children = (
+				3FCB3D5D1DF40B510070B3C2 /* Class */,
 				3FCB3D491DF40B0C0070B3C2 /* AppDelegate.h */,
 				3FCB3D4A1DF40B0C0070B3C2 /* AppDelegate.m */,
 				3FCB3D4C1DF40B0C0070B3C2 /* ViewController.h */,
 				3FCB3D4D1DF40B0C0070B3C2 /* ViewController.m */,
+				3FCB3D6A1DF40CC00070B3C2 /* IMG_1331.PNG */,
 				3FCB3D4F1DF40B0C0070B3C2 /* Main.storyboard */,
 				3FCB3D521DF40B0C0070B3C2 /* Assets.xcassets */,
 				3FCB3D541DF40B0C0070B3C2 /* LaunchScreen.storyboard */,
@@ -77,6 +93,21 @@
 				3FCB3D471DF40B0C0070B3C2 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FCB3D5D1DF40B510070B3C2 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				3FCB3D5E1DF40B7A0070B3C2 /* JMDotView.h */,
+				3FCB3D5F1DF40B7A0070B3C2 /* JMDotView.m */,
+				3FCB3D611DF40B8B0070B3C2 /* JMCenterRotateView.h */,
+				3FCB3D621DF40B8B0070B3C2 /* JMCenterRotateView.m */,
+				3FCB3D641DF40B990070B3C2 /* JMSimpleLoader.h */,
+				3FCB3D651DF40B990070B3C2 /* JMSimpleLoader.m */,
+				3FCB3D671DF40BAA0070B3C2 /* JMFunHUD.h */,
+				3FCB3D681DF40BAA0070B3C2 /* JMFunHUD.m */,
+			);
+			name = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +170,7 @@
 				3FCB3D561DF40B0C0070B3C2 /* LaunchScreen.storyboard in Resources */,
 				3FCB3D531DF40B0C0070B3C2 /* Assets.xcassets in Resources */,
 				3FCB3D511DF40B0C0070B3C2 /* Main.storyboard in Resources */,
+				3FCB3D6B1DF40CC00070B3C2 /* IMG_1331.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,9 +181,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FCB3D631DF40B8B0070B3C2 /* JMCenterRotateView.m in Sources */,
 				3FCB3D4E1DF40B0C0070B3C2 /* ViewController.m in Sources */,
 				3FCB3D4B1DF40B0C0070B3C2 /* AppDelegate.m in Sources */,
+				3FCB3D661DF40B990070B3C2 /* JMSimpleLoader.m in Sources */,
 				3FCB3D481DF40B0C0070B3C2 /* main.m in Sources */,
+				3FCB3D601DF40B7A0070B3C2 /* JMDotView.m in Sources */,
+				3FCB3D691DF40BAA0070B3C2 /* JMFunHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +300,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JMFunHUD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.icyMango.JMFunHUD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,6 +312,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JMFunHUD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.icyMango.JMFunHUD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
