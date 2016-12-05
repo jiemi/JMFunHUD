@@ -1,6 +1,7 @@
 #JMFunHUD
 A creative and fun HUD can be easily added to your project ^ ^
 
+The idea is from [Dribbble](https://ios.uplabs.com/posts/simple-loader)
 
 ![Dim](https://github.com/jiemi/JMFunHUD/blob/master/GIF/dimgif.gif?raw=true)
 
@@ -11,7 +12,6 @@ At first, import JMFunHUD.h
 
 ```
 import "JMFunHUD.h"
-
 ```
 ###Normal Usage
 Show HUD
@@ -22,12 +22,10 @@ hud.backgroundType = JMFunHUDBackgroundTypeBlur;
 [hud show:YES];
 
 ```
-
 Hide HUD 
 
 ```
 [hud hide:true];
-
 ```
 
 ###Shared HUD
@@ -41,5 +39,4 @@ Note that you should hide it as shown below.
 
 ```
 [JMFunHUD hideSharedHUD:YES];
-
 ```
