@@ -10,7 +10,6 @@
 
 #import "JMFunHUD.h"
 #import "JMSimpleLoader.h"
-#import "AppDelegate.h"
 
 @interface JMFunHUD()
 
