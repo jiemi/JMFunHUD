@@ -20,12 +20,12 @@ Show HUD
 JMFunHUD *hud = [JMFunHUD hudForView:self.view];
 hud.backgroundType = JMFunHUDBackgroundTypeBlur;
 [hud show:YES];
-
 ```
 Hide HUD 
 
 ```
 [hud hide:true];
+
 ```
 
 ###Shared HUD
@@ -39,4 +39,8 @@ Note that you should hide it as shown below.
 
 ```
 [JMFunHUD hideSharedHUD:YES];
+
 ```
+
+
+
