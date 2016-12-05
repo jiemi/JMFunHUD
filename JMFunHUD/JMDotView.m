@@ -44,10 +44,8 @@
     // width + 1/6*width * 2 = S
     CGFloat percent = (1+1.0/6*2);
     CGSize dotSize = CGSizeMake(self.frame.size.width/percent, self.frame.size.height/percent);
-    //为什么dotOutRectSize为0
-    // CGRect dotRect = CGRectMake((dotOutRectSize.width-dotSize.width)/2, (dotOutRectSize.height-dotSize.height)/2, dotSize.width, dotSize.height);
-    NSLog(@"%f",_factor);
-    // NSLog(@"%f",);
+    
+    //NSLog(@"%f",_factor);
     
     CGFloat offset =  dotSize.width / 3.6;
     
@@ -89,7 +87,6 @@
     
     CGContextAddPath(ctx, path.CGPath);
     CGContextSetFillColorWithColor(ctx,[UIColor whiteColor].CGColor);
-    //  CGContextDrawPath(ctx, kCGPathFillStroke);
     CGContextFillPath(ctx);
     
     
