@@ -51,7 +51,6 @@
     [JMFunHUD showSharedHUD:YES withType:JMFunHUDBackgroundTypeBlur];
     
     [self performHideAfterSecond:10 hud:[JMFunHUD sharedHUD]];
-    
     //or you can show sharedHUD as shown below
     /*
     JMFunHUD *hud = [JMFunHUD sharedHUD];
