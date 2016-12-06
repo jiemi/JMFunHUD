@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'JMFunHUD'
-  s.version          = '1.0.0'
+  s.version          = '1.0.3'
   s.summary          = 'A creative and fun HUD'
   s.description      = <<-DESC
                        This is a a creative and fun HUD.
